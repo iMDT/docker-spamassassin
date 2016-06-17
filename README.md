@@ -1,7 +1,7 @@
 # docker-spamassassin
-Run latest spamassassin from docker
+Run spamassassin (>=3.4.1) as a docker container
 
-The latest spamassassin is used. You can verify the exact version [here](https://www.archlinux.org/packages/?name=spamassassin)
+The latest spamassassin version is used from the arch linux repository.  [here](https://www.archlinux.org/packages/?name=spamassassin)
 
 # Quick start
 1. Clone the repository
