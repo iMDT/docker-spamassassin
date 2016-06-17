@@ -11,9 +11,9 @@ RUN pacman --noconfirm -Sy && \
     pacman --noconfirm -S spamassassin && \
     pacman --noconfirm -S razor
 
-COPY spamd.sh /
-COPY update.sh /
-COPY run.sh /
+COPY scripts/spamd.sh /
+COPY scripts/update.sh /
+COPY scripts/run.sh /
 
 EXPOSE 783
 
